@@ -1,0 +1,24 @@
+{
+	"name": "imagemin-gifsicle-plugin",
+	"version": "7.0.0",
+	"description": "Imagemin plugin for Gifsicle",
+	"license": "MIT",
+	"engines": {
+		"node": ">=10"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"dependencies": {
+		"execa": "^4.0.0",
+		"gifsicle-cbin": "^5.0.0",
+		"is-gif": "^3.0.0"
+	},
+	"devDependencies": {
+		"ava": "^3.8.0",
+		"xo": "^0.30.0"
+	}
+}

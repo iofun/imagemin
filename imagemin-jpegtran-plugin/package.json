@@ -1,0 +1,25 @@
+{
+  "name": "imagemin-jpegtran-plugin",
+  "version": "7.0.0",
+  "description": "jpegtran imagemin plugin",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "exec-buffer": "^3.0.0",
+    "is-jpg": "^2.0.0",
+    "jpegtran-cbin": "^5.0.0"
+  },
+  "devDependencies": {
+    "ava": "^3.8.0",
+    "is-progressive": "^3.0.0",
+    "xo": "^0.30.0"
+  }
+}
